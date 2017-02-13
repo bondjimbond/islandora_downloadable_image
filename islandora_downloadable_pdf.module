@@ -76,7 +76,7 @@ function islandora_downloadable_pdf_block_view($delta) {
   $ids['cmodel'] = islandora_object_load($pid)->models[0];
   
   // If object is a book, proceed - otherwise, break.
-  if ($ids['cmodel']=='islandora:bookCModel' || 'islandora:newspaperPageCModel') {
+  if ($ids['cmodel']=='islandora:bookCModel' || 'islandora:newspaperIssueCModel') {
     $dsid = variable_get('islandora_downloadable_pdf_datastream', 'PDF');
     global $base_url;
     $label = variable_get('islandora_downloadable_pdf_label', 'Download PDF');
