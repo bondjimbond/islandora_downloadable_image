@@ -1,9 +1,9 @@
-# islandora_downloadable_image
-Creates a block that allows users to download a large image.
+# islandora_downloadable_pdf
+Creates a block that allows users to download a books PDF.
 
 ## Requirements
 * [Islandora](https://github.com/Islandora/islandora)
-* Islandora Large Image Solution Pack
+* Islandora Book Solution Pack
 
 ## Installation
 Same as any Drupal module.
@@ -16,4 +16,5 @@ The block creates a simple HTML link, in a div with the CSS class "downloadlink"
 
 ## Maintainer
 
-[Brandon Weigel](https://github.com/bondjimbond)
+Forked from [Brandon Weigel](https://github.com/bondjimbond)
+By [Amanda Lehman](https://github.com/amandarl)

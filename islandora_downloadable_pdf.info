@@ -1,6 +1,6 @@
-name = Islandora Downloadable Image
+name = Islandora Downloadable PDF
 version = 7.x-dev
 core = 7.x
-description = Islandora downloadable image.
+description = Islandora downloadable pdf.
 dependencies[] = islandora
 package = Islandora Tools
